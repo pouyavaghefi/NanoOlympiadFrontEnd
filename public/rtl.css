@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+
+.no-arabic-font {
+    font-family: inherit !important;
+}
+
+.noto-sans-arabic {
+    font-family: "Noto Sans Arabic", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.noto-sans-arabic h1,
+.noto-sans-arabic h2,
+.noto-sans-arabic h3,
+.noto-sans-arabic h4,
+.noto-sans-arabic h5,
+.noto-sans-arabic h6,
+.noto-sans-arabic p,
+.noto-sans-arabic span,
+.noto-sans-arabic a,
+.noto-sans-arabic li {
+    font-family: "Noto Sans Arabic", serif !important;
+}
+
+/* Footer Adjustments */
+.footer-list li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list li a i {
+    margin-left: 5px;
+}
